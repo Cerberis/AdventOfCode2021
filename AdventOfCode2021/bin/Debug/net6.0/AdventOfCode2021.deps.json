@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "AdventOfCode2021/1.0.0": {
+        "dependencies": {
+          "CommonCode": "1.0.0"
+        },
+        "runtime": {
+          "AdventOfCode2021.dll": {}
+        }
+      },
+      "CommonCode/1.0.0": {
+        "runtime": {
+          "CommonCode.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdventOfCode2021/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonCode/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
