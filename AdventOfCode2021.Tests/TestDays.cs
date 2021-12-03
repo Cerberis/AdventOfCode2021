@@ -80,7 +80,7 @@ namespace AdventOfCode2021.Tests
         {
             //Assign
             var runmode = RunMode.Day3Part2;
-            var expectedResult = "1488311643";
+            var expectedResult = "4474944";
 
             //Act
             var result = RunModeHandler.Execute(runmode);
