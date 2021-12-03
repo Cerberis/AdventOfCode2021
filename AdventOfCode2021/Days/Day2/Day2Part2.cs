@@ -10,11 +10,12 @@ namespace AdventOfCode2021.Days
             ParsedData = ReadDataIntoModel(filePath);
         }
 
-        internal void Execute()
+        internal string Execute()
         {
             var result = Calculate();
             Console.WriteLine($"Horizontal position: {result.horizontalPosition}, Depth: {result.depth}");
             Console.WriteLine($"Result: {result.horizontalPosition * result.depth}");
+            return (result.horizontalPosition * result.depth).ToString();
         }
 
         internal (int horizontalPosition, int depth) Calculate()

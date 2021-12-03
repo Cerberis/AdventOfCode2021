@@ -54,3 +54,5 @@ dkms.conf
 /AdventOfCode2021/obj
 /AdventOfCode2021/bin
 /AdventOfCode2021/bin/Debug
+/AdventOfCode2021.Tests/bin
+/AdventOfCode2021.Tests/obj

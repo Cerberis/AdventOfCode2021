@@ -1,6 +1,6 @@
 ﻿namespace AdventOfCode2021.Enumerations
 {
-    internal enum RunMode
+    public enum RunMode
     {
         Day1Part1,
         Day1Part2,

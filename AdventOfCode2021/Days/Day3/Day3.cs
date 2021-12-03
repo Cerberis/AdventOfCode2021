@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-
-namespace AdventOfCode2021.Days
+﻿namespace AdventOfCode2021.Days
 {
     internal abstract class Day3
     {
@@ -14,11 +9,12 @@ namespace AdventOfCode2021.Days
             ParsedData = ReadFile(filePath);
         }
 
-        internal void Execute()
+        internal string Execute()
         {
             var result = Calculate();
 
             Console.WriteLine($"Result: {result}");
+            return result.ToString();
         }
 
         internal abstract int Calculate();

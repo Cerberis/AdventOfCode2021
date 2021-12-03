@@ -1,11 +1,4 @@
-﻿
-
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-
-namespace AdventOfCode2021.Days
+﻿namespace AdventOfCode2021.Days
 {
     internal class Day3Part2 : Day3
     {

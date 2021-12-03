@@ -10,13 +10,14 @@ namespace AdventOfCode2021.Days
             ParsedData = ReadDataIntoModel(filePath);
         }
 
-        internal void Execute()
+        internal string Execute()
         {
             var horizontalPosition = ParsedData["forward"].Sum();
             var depth = ParsedData["down"].Sum() - ParsedData["up"].Sum();
 
             Console.WriteLine($"Horizontal position: {horizontalPosition}, Depth: {depth}");
             Console.WriteLine($"Result: {horizontalPosition * depth}");
+            return (horizontalPosition * depth).ToString();
         }
 
         internal int Calculate(int[] intArray, int iterationLength)
