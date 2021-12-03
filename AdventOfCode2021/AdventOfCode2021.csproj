@@ -14,5 +14,22 @@
   <ItemGroup>
     <ProjectReference Include="..\..\CommonCode\CommonCode\CommonCode.csproj" />
   </ItemGroup>
+	<ItemGroup>
+		<None Update="Days\Day1\Part1Data.txt">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Days\Day1\Part2Data.txt">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Days\Day2\Part1Data.txt">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Days\Day2\Part2Data.txt">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+		<None Update="Days\Day3\Data.txt">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
 
 </Project>

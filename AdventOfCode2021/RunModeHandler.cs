@@ -190,24 +190,30 @@ namespace AdventOfCode2021
 
         private static void Day2Part1Handler()
         {
-            var handler = new Day2Part1(@"D:\Projektai\AdventOfCode2021\AdventOfCode2021\Days\Day2\Part1Data.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Days\Day2\Part1Data.txt");
+            var handler = new Day2Part1(path);
             handler.Execute();
         }
 
         private static void Day2Part2Handler()
         {
-            var handler = new Day2Part2(@"D:\Projektai\AdventOfCode2021\AdventOfCode2021\Days\Day2\Part2Data.txt");
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Days\Day2\Part2Data.txt");
+            var handler = new Day2Part2(path);
             handler.Execute();
         }
 
         private static void Day3Part1Handler()
         {
-            
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Days\Day3\Data.txt");
+            var handler = new Day3Part1(path);
+            handler.Execute();
         }
 
         private static void Day3Part2Handler()
         {
- 
+            string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"Days\Day3\Data.txt");
+            var handler = new Day3Part2(path);
+            handler.Execute();
         }
 
         private static void Day4Part1Handler()
