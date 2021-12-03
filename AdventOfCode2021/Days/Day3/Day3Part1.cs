@@ -9,7 +9,6 @@ namespace AdventOfCode2021.Days
         {
         }
 
-
         internal override int Calculate()
         {
             string mostCommonBite = "";
@@ -18,9 +17,9 @@ namespace AdventOfCode2021.Days
             for (int i = 0; i < ParsedData.First().Length; i++)
             {
                 var groupChars = from str in ParsedData
-                    group str by str[i]
-                    into grp
-                    select new {Letter = grp.Key, Quantity = grp.Count()};
+                                 group str by str[i]
+                                 into grp
+                                 select new { Letter = grp.Key, Quantity = grp.Count() };
                 mostCommonBite += groupChars.OrderByDescending(m => m.Quantity).First().Letter;
                 leastCommonBite += groupChars.OrderBy(m => m.Quantity).First().Letter;
             }

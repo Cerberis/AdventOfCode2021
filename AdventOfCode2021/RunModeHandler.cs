@@ -1,5 +1,6 @@
 ﻿using AdventOfCode2021.Days;
 using AdventOfCode2021.Enumerations;
+using System.Reflection;
 
 namespace AdventOfCode2021
 {
