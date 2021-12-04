@@ -138,12 +138,16 @@ namespace AdventOfCode2021
 
         private static string Day4Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day4\Data.txt");
+            var handler = new Day4Part1(path);
+            return handler.Execute();
         }
 
         private static string Day4Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day4\Data.txt");
+            var handler = new Day4Part2(path);
+            return handler.Execute();
         }
 
         private static string Day5Part1Handler()
