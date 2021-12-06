@@ -143,8 +143,34 @@ namespace AdventOfCode2021.Tests
 
             //Assert
             Assert.AreEqual(expectedResult, result);
+        }
 
-            //20804 too high
+        [Test]
+        public void Day6Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day6Part1;
+            var expectedResult = "352872";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day6Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day6Part2;
+            var expectedResult = "1604361182149";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
         }
     }
 }
