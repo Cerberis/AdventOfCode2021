@@ -1,6 +1,6 @@
 ﻿using AdventOfCode2021;
 using AdventOfCode2021.Enumerations;
 
-var runmode = RunMode.Day6Part2;
+var runmode = RunMode.Day7Part2;
 
 RunModeHandler.Execute(runmode);

@@ -96,6 +96,51 @@ namespace AdventOfCode2021
                     return Day20Part1Handler();
                 case RunMode.Day20Part2:
                     return Day20Part2Handler();
+                case RunMode.Day21Part1:
+                    return Day21Part1Handler();
+                case RunMode.Day21Part2:
+                    return Day21Part2Handler();
+                case RunMode.Day22Part1:
+                    return Day22Part1Handler();
+                case RunMode.Day22Part2:
+                    return Day22Part2Handler();
+                case RunMode.Day23Part1:
+                    return Day23Part1Handler();
+                case RunMode.Day23Part2:
+                    return Day23Part2Handler();
+                case RunMode.Day24Part1:
+                    return Day24Part1Handler();
+                case RunMode.Day24Part2:
+                    return Day24Part2Handler();
+                case RunMode.Day25Part1:
+                    return Day25Part1Handler();
+                case RunMode.Day25Part2:
+                    return Day25Part2Handler();
+                case RunMode.Day26Part1:
+                    return Day26Part1Handler();
+                case RunMode.Day26Part2:
+                    return Day26Part2Handler();
+                case RunMode.Day27Part1:
+                    return Day27Part1Handler();
+                case RunMode.Day27Part2:
+                    return Day27Part2Handler();
+                case RunMode.Day28Part1:
+                    return Day28Part1Handler();
+                case RunMode.Day28Part2:
+                    return Day28Part2Handler();
+                case RunMode.Day29Part1:
+                    return Day29Part1Handler();
+                case RunMode.Day29Part2:
+                    return Day29Part2Handler();
+                case RunMode.Day30Part1:
+                    return Day30Part1Handler();
+                case RunMode.Day30Part2:
+                    return Day30Part2Handler();
+                case RunMode.Day31Part1:
+                    return Day31Part1Handler();
+                case RunMode.Day31Part2:
+                    return Day31Part2Handler();
+
 
             }
             return "Nothing happened";
@@ -180,12 +225,16 @@ namespace AdventOfCode2021
 
         private static string Day7Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day7\Data.txt");
+            var handler = new Day7Part1(path);
+            return handler.Execute();
         }
 
         private static string Day7Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day7\Data.txt");
+            var handler = new Day7Part2(path);
+            return handler.Execute();
         }
 
         private static string Day8Part1Handler()
@@ -314,6 +363,116 @@ namespace AdventOfCode2021
         }
 
         private static string Day20Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day21Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day21Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day22Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day22Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day23Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day23Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day24Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day24Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day25Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day25Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day26Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day26Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day27Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day27Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day28Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day28Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day29Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day29Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day30Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day30Part2Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day31Part1Handler()
+        {
+            throw new NotImplementedException();
+        }
+
+        private static string Day31Part2Handler()
         {
             throw new NotImplementedException();
         }
