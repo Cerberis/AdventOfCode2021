@@ -33,8 +33,6 @@ namespace AdventOfCode2021.Days
                 result += DecryptExpectedResults(parsedRow.ExpectedResults).ToInt();
             }
 
-
-            //to low 594060
             return result;
         }
 
