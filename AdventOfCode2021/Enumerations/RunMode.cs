@@ -51,18 +51,6 @@
         Day24Part1,
         Day24Part2,
         Day25Part1,
-        Day25Part2,
-        Day26Part1,
-        Day26Part2,
-        Day27Part1,
-        Day27Part2,
-        Day28Part1,
-        Day28Part2,
-        Day29Part1,
-        Day29Part2,
-        Day30Part1,
-        Day30Part2,
-        Day31Part1,
-        Day31Part2
+        Day25Part2
     }
 }

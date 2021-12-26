@@ -116,32 +116,6 @@ namespace AdventOfCode2021
                     return Day25Part1Handler();
                 case RunMode.Day25Part2:
                     return Day25Part2Handler();
-                case RunMode.Day26Part1:
-                    return Day26Part1Handler();
-                case RunMode.Day26Part2:
-                    return Day26Part2Handler();
-                case RunMode.Day27Part1:
-                    return Day27Part1Handler();
-                case RunMode.Day27Part2:
-                    return Day27Part2Handler();
-                case RunMode.Day28Part1:
-                    return Day28Part1Handler();
-                case RunMode.Day28Part2:
-                    return Day28Part2Handler();
-                case RunMode.Day29Part1:
-                    return Day29Part1Handler();
-                case RunMode.Day29Part2:
-                    return Day29Part2Handler();
-                case RunMode.Day30Part1:
-                    return Day30Part1Handler();
-                case RunMode.Day30Part2:
-                    return Day30Part2Handler();
-                case RunMode.Day31Part1:
-                    return Day31Part1Handler();
-                case RunMode.Day31Part2:
-                    return Day31Part2Handler();
-
-
             }
             return "Nothing happened";
         }
@@ -267,222 +241,226 @@ namespace AdventOfCode2021
 
         private static string Day10Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day10\Data.txt");
+            var handler = new Day10Part1(path);
+            return handler.Execute();
         }
 
         private static string Day10Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day10\Data.txt");
+            var handler = new Day10Part2(path);
+            return handler.Execute();
         }
 
         private static string Day11Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day11\Data.txt");
+            var handler = new Day11Part1(path);
+            return handler.Execute();
         }
 
         private static string Day11Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day11\Data.txt");
+            var handler = new Day11Part2(path);
+            return handler.Execute();
         }
 
         private static string Day12Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day12\Data.txt");
+            var handler = new Day12Part1(path);
+            return handler.Execute();
         }
 
         private static string Day12Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day12\Data.txt");
+            var handler = new Day12Part2(path);
+            return handler.Execute();
         }
 
         private static string Day13Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day13\Data.txt");
+            var handler = new Day13Part1(path);
+            return handler.Execute();
         }
 
         private static string Day13Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day13\Data.txt");
+            var handler = new Day13Part2(path);
+            return handler.Execute();
         }
 
         private static string Day14Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day14\Data.txt");
+            var handler = new Day14Part1(path);
+            return handler.Execute();
         }
 
         private static string Day14Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day14\Data.txt");
+            var handler = new Day14Part2(path);
+            return handler.Execute();
         }
 
         private static string Day15Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day15\Data.txt");
+            var handler = new Day15Part1(path);
+            return handler.Execute();
         }
 
         private static string Day15Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day15\Data.txt");
+            var handler = new Day15Part2(path);
+            return handler.Execute();
         }
 
         private static string Day16Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day16\Data.txt");
+            var handler = new Day16Part1(path);
+            return handler.Execute();
         }
 
         private static string Day16Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day16\Data.txt");
+            var handler = new Day16Part2(path);
+            return handler.Execute();
         }
 
         private static string Day17Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day17\Data.txt");
+            var handler = new Day17Part1(path);
+            return handler.Execute();
         }
 
         private static string Day17Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day17\Data.txt");
+            var handler = new Day17Part2(path);
+            return handler.Execute();
         }
 
         private static string Day18Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day18\Data.txt");
+            var handler = new Day18Part1(path);
+            return handler.Execute();
         }
 
         private static string Day18Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day18\Data.txt");
+            var handler = new Day18Part2(path);
+            return handler.Execute();
         }
 
         private static string Day19Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day19\Data.txt");
+            var handler = new Day19Part1(path);
+            return handler.Execute();
         }
 
         private static string Day19Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day19\Data.txt");
+            var handler = new Day19Part2(path);
+            return handler.Execute();
         }
 
         private static string Day20Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day20\Data.txt");
+            var handler = new Day20Part1(path);
+            return handler.Execute();
         }
 
         private static string Day20Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day20\Data.txt");
+            var handler = new Day20Part2(path);
+            return handler.Execute();
         }
 
         private static string Day21Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day21\Data.txt");
+            var handler = new Day21Part1(path);
+            return handler.Execute();
         }
 
         private static string Day21Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day21\Data.txt");
+            var handler = new Day21Part2(path);
+            return handler.Execute();
         }
 
         private static string Day22Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day22\Data.txt");
+            var handler = new Day22Part1(path);
+            return handler.Execute();
         }
 
         private static string Day22Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day22\Data.txt");
+            var handler = new Day22Part2(path);
+            return handler.Execute();
         }
 
         private static string Day23Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day23\Data.txt");
+            var handler = new Day23Part1(path);
+            return handler.Execute();
         }
 
         private static string Day23Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day23\Data.txt");
+            var handler = new Day23Part2(path);
+            return handler.Execute();
         }
 
         private static string Day24Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day24\Data.txt");
+            var handler = new Day24Part1(path);
+            return handler.Execute();
         }
 
         private static string Day24Part2Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day24\Data.txt");
+            var handler = new Day24Part2(path);
+            return handler.Execute();
         }
 
         private static string Day25Part1Handler()
         {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day25\Data.txt");
+            var handler = new Day25Part1(path);
+            return handler.Execute();
         }
 
         private static string Day25Part2Handler()
         {
-            throw new NotImplementedException();
-        }
-
-        private static string Day26Part1Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day26Part2Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day27Part1Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day27Part2Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day28Part1Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day28Part2Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day29Part1Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day29Part2Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day30Part1Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day30Part2Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day31Part1Handler()
-        {
-            throw new NotImplementedException();
-        }
-
-        private static string Day31Part2Handler()
-        {
-            throw new NotImplementedException();
+            string path = GetPath(@"Days\Day25\Data.txt");
+            var handler = new Day25Part2(path);
+            return handler.Execute();
         }
 
         private static string GetPath(string fileLocationInBin)

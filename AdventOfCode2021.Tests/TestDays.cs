@@ -257,5 +257,453 @@ namespace AdventOfCode2021.Tests
             //Assert
             Assert.AreEqual(expectedResult, result);
         }
+
+        [Test]
+        public void Day10Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day10Part1;
+            var expectedResult = "389589";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day10Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day10Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day11Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day11Part1;
+            var expectedResult = "1743";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day11Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day11Part2;
+            var expectedResult = "364";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day12Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day12Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day12Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day12Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day13Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day13Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day13Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day13Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day14Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day14Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day14Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day14Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day15Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day15Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day15Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day15Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day16Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day16Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day16Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day16Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day17Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day17Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day17Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day17Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day18Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day18Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day18Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day18Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day19Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day19Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day19Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day19Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day20Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day20Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day20Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day20Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day21Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day21Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day21Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day21Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day22Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day22Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day22Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day22Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day23Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day23Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day23Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day23Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day24Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day24Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day24Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day24Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day25Part1()
+        {
+            //Assign
+            var runmode = RunMode.Day25Part1;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void Day25Part2()
+        {
+            //Assign
+            var runmode = RunMode.Day25Part2;
+            var expectedResult = "";
+
+            //Act
+            var result = RunModeHandler.Execute(runmode);
+
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
